@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import joblib
+import numpy as np
 
 # Load the pre-trained model
 model = joblib.load('model.pkl')
